@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: white url(../img/fundo.png) repeat-x;
+}
+
+.containersite {
+    width: 750px;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* cabeçalho */
+.cabecalho {
+    height: 150px;
+    background: url(../img/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../img/logo.png) no-repeat center left;
+    text-indent: -3000px;
+    cursor: pointer;
+}
+
+/* barra navegação */
+.navbar {
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+    border-radius: 5px;
+}
+
+.nav {
+    float: left;
+}
+
+.navlink {
+    font-size: 18px;
+    display: block;
+    padding: 8px 20px;
+    line-height: 25px;
+    color: white;
+}
+
+.navlink:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* corpo de conteúdo */
+
+.conteudo {
+    margin-top: 60px;
+    background-color: #f5f5f5;
+}
+
+/* 3 colunas de conteúdo */
+.col_principal {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+.col_secundaria {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+.barra_lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+/* 2 colunas de conteúdo */
+#col_unica {
+    width: 555px;
+}
+
+/* 1 coluna de conteúdo */
+#coluna {
+    width: 730px;
+    margin: 0 0 20px 0;
+}
+
+/* caixas de conteúdo */
+.caixa {
+    background: #f3f3f3 url(../img/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.titulo_caixa {
+    font-size: 25px;
+    line-height: 30px;
+    background: #294c71;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.caixa_conteudo {
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* formatação lateral */
+.link_lista_conteudo {
+    font-size: 18px;
+    padding: 5px;
+    line-height: 25px;
+    color: black;
+    display: block;
+}
+
+.link_lista_conteudo:hover {
+    color: #a1a1a1;
+    padding-left: 30px;
+}
+
+/* formulário da lateral */
+.texto_cd_nl {
+    padding: 5px;
+}
+
+.cadastro_nl {
+    padding: 5px;
+}
+
+.nl_cadastro {
+    display: block;
+    cursor: pointer;
+}
+
+.newsletter_cadastro {
+    background: white;
+    width: 140px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #294c71;
+    border-radius: 5px;
+}
+
+.bt_newsletter_cadastro {
+    margin: 5px;
+    padding: 5px;
+    background: #a1a1a1;
+    border-radius: 5px;
+}
+
+/* conteudo principal */
+.titulo_conteudo {
+    background: red;
+    margin: 5px 0;
+    padding: 2px;
+    color: white;
+    border: 3px solid #b10333;
+}
+
+.img_conteudo {
+    width: 100%;
+}
+
+.texto_conteudo {
+    padding: 4px;
+}
+
+/* conteudo secundário */
+
+.titulo_mais_conteudos {
+    margin: 2px 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+.img_mais_conteudos {
+    width: 95px;
+    height: 80px;
+    padding: 0;
+    float: left;
+}
+
+.texto_mais_conteudos {
+    font-size: 15px;
+    padding-left: 101px;
+    height: 80px;
+    ;
+}
+
+/* página conteúdo */
+.titulo_conteudo_pagina {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+.img_conteudo_pagina {
+    border-radius: 10px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.texto_conteudo_pagina {
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* rodapé */
+.rodape {
+    clear: both;
+    background: #294c71;
+}
+
+.rodape_conteudo {
+    width: 750px;
+    padding: 20px;
+    margin: 0 auto;
+    color: white;
+}
